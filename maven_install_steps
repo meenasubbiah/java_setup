@@ -1,0 +1,14 @@
+In /opt
+	change directory	
+		cd /opt
+	create a dir maven
+		sudo mkdir maven
+	extract the maven lib
+		sudo tar xvzf ~/Downloads/apache-maven-3.6.3-bin.tar.gz
+	change the dirctory name
+		sudo mv apache-maven-3.6.3/ 3.6.3
+	Create a link file default to point the actual library
+		sudo ln -s 3.6.3/ default
+
+	 
+	
